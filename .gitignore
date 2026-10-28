@@ -1,0 +1,63 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+!.env.template
+
+# Virtual environments
+/.venv/
+/venv/
+/env/
+/ENV/
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python packaging and build artifacts
+.Python
+/build/
+/develop-eggs/
+/dist/
+/downloads/
+/eggs/
+/lib/
+/lib64/
+/parts/
+/sdist/
+/var/
+/wheels/
+/share/python-wheels/
+*.egg
+*.egg-info/
+
+# Test, type-checker, and coverage artifacts
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs and generated application output
+*.log
+/logs/
+/output/
+
+# IDE and editor settings
+/.idea/
+/.vscode/
+*.swp
+*.swo
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
